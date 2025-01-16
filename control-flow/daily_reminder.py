@@ -20,4 +20,4 @@ elif time_bound == "no":
 if priority == "high" and time_bound == "yes":
     reminder = f"Reminder: '{task}' is a high priority task that requires immediate attention today!"
 
-print(reminder)
+print(f"Reminder: {reminder}") 

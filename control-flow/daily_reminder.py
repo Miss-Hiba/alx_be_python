@@ -16,6 +16,5 @@ elif time_bound == "no":
     reminder += ". Consider completing it when you have free time."
 else:
     reminder = "Invalid time-bound input."
-if priority == "high" and time_bound == "yes":
     reminder += " This is very urgent!"
 print("\nReminder:", reminder) 

@@ -13,8 +13,9 @@ match priority:
 if time_bound == "yes":
     reminder += " that requires immediate attention today!"
 elif time_bound == "no":
-    reminder += ". Consider completing it when you have free time."
+    reminder += "." 
 else:
     reminder = "Invalid time-bound input."
-    reminder += " This is very urgent!"
-print("\nReminder:", reminder) 
+if priority == "high" and time_bound == "yes":
+    reminder = f"Reminder: '{task}' is a high priority task that requires immediate attention today!"
+print(reminder) 

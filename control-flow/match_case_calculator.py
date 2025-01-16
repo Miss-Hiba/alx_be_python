@@ -11,5 +11,5 @@ else:
     if num2!=0:
         result=num1/num2
     else :
-        print("non valide")
+        print("Cannot divide by zero")
 print(result)
